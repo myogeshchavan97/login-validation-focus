@@ -84,7 +84,7 @@ export default function App() {
           <Form.Group controlId="password">
             <Form.Label>Password</Form.Label>
             <Form.Control
-              type="text"
+              type="password"
               name="password"
               ref={passwordRef}
               value={state.password}
