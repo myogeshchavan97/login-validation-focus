@@ -30,12 +30,12 @@ export default function App() {
       {
         name: 'email',
         value: state.email,
-        message: 'Email address should be not be blank.'
+        message: 'Email address should not be blank.'
       },
       {
         name: 'password',
         value: state.password,
-        message: 'Password should be not be blank.'
+        message: 'Password should not be blank.'
       }
     ];
     const isNotFilled = fields.some(field => {
