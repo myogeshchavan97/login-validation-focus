@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.successMsg {
+  background: #08cb08;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.errorMsg {
+  background: #fff0f0;
+  color: #ff0000;
+  padding: 10px;
+}
